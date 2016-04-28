@@ -261,3 +261,22 @@ function thewire_tools_widget_title_url($hook_name, $entity_type, $return, $para
 	
 	return $result;
 }
+
+function thewire_tools_notify_subject($hook, $entity_type, $returnvalue, $params) {
+	$entity = $params['entity'];
+
+	if (!$entity->subtype == "thewire") {
+		return;
+	}
+
+	$container = $entity->getContainerEntity();
+
+	$title = "";
+
+	if ($container instanceof ElggGroup) {
+		$title .= sprintf("[%s] ", $container->name);
+	}
+
+	$title .= elgg_echo('thewire_tools:notify:subject:new');
+	return $title;
+}

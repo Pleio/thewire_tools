@@ -12,6 +12,7 @@ $language = array (
   'thewire_tools:menu:mentions' => 'Vermeldingen',
   'thewire_tools:settings:enable_group' => 'Schakel The Wire in voor groepen',
   'thewire_tools:settings:extend_widgets' => 'Breidt The Wire widget uit met de optie om direct een bericht te kunnen plaatsen',
+  'thewire_tools:notify:subject:new' => 'Nieuw wire bericht',
   'thewire_tools:notify:mention:subject' => 'Je bent vermeld op The Wire',
   'thewire_tools:notify:mention:message' => 'Beste %s,
 

@@ -15,6 +15,8 @@
 		'thewire_tools:settings:wire_length' => "Set the max length of a Wire post",
 	
 		// notification
+		'thewire_tools:notify:subject:new' => "New wire message",
+
 		// mention
 		'thewire_tools:notify:mention:subject' => "You've been mentioned on the wire",
 		'thewire_tools:notify:mention:message' => "Hi %s,
